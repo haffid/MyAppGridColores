@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CCFF90"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Color Picker"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:layout_marginTop="25sp"
+        android:textColor="#FF5722"
+        android:textStyle="bold"
+        />
+    <GridView
+        android:id="@+id/gridColores"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/txtTitulo"
+        android:columnWidth="100sp"
+        android:numColumns="3"
+        android:horizontalSpacing="1sp"
+        android:verticalSpacing="1sp"
+
+        />
+
+</RelativeLayout>
